@@ -27,6 +27,7 @@ Các bước:
   - B2: Nhập input gồm hàm f(x,y) (dấu mũ: ^ hoặc **, e^x là exp(x)), điểm đầu a, điểm cuối b, bước đều h (cho phép nhiều h)
 
     Minh họa:
+    
 ```
 PS D:\> python runge_kutta.py
 
@@ -56,6 +57,7 @@ Các bước:
   - eps, hmin, hmax là tùy chọn (có giá trị mặc định nếu không nhập), nếu nhập thì phải đủ, đúng thứ tự.
 
     Minh họa:
+
 ```
 PS D:\> python adaptive.py
 
@@ -79,6 +81,7 @@ Các bước:
     Hệ 2 phương trình thì viết ở 2 dòng 30 31,hệ 3 phương trình 30 31 32,... (Có dấu phẩy cuối dòng)
 
     Minh họa:
+
 ```py
 14  def f(t,x) -> np.array:
 15      """..."""
@@ -93,6 +96,7 @@ Các bước:
   - B2: Lưu file sau đó chạy file, nhập input theo yêu cầu gồm t0,tf,dt, giá trị ban đầu của hệ x_00,x_10,x_20,...
 
     Minh họa:
+
 ```
 PS D:\> python systemofODEs.py
 

@@ -6,7 +6,7 @@
 
 ## Yêu cầu:
 
- - Có cài đặt Python3 (3.8.10 hoặc mới hơn, khuyến khích cài từ python.org)
+ - Có cài đặt Python3 (3.9 hoặc mới hơn, khuyến khích cài từ python.org)
  - Có cài đặt các thư viện cần thiết (**`numpy, sympy, matplotlib`**)
   
 ## Cài đặt thư viện
@@ -42,7 +42,7 @@ Các file cũng có thể chạy riêng lẻ, đầu vào cũng tương tự nh�
 
 ### `systemofODEs.py`:
 
-  - Giải hệ x' = f(t,x) (x là vector trong $\mathbb{R}^k$), t0 <= t <= tf, bước lưới dt.
+  - Giải hệ x' = f(t,x) (x là vector trong R^k), t0 <= t <= tf, bước lưới dt.
   - Đối với hệ 1,2,3 phương trình, nhập theo thứ tự các hàm x',y',z' biến t (hệ 1 chỉ cần nhập f, hệ 2 phương trình chỉ cần nhập f,g).
   - Với nhiều hơn 3 phương trình trong hệ, sửa hàm `f(t,x)` của file `systemofODEs.py` ở dòng 30,31,... theo hướng dẫn được viết trong hàm, phải tự đổi biến hàm thành x[0],x[1],... ẩn t.
     Hệ 2 phương trình thì viết ở 2 dòng 30 31,hệ 3 phương trình 30 31 32,... (Có dấu phẩy cuối dòng)
